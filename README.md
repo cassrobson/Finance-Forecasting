@@ -32,8 +32,8 @@ Once the simulations have been completed, the program loops through each iterati
 
 In the center of the excel sheet, the program displays a lined scatter plot, demonstration the movements of each consecutive iteration. Based on the returned valued, the scatter plot will display the distribution of positive and negative return values, automatically adjusting for the type of forecasting chosen by the user. This allows the user to easily compare the results of each respective forecasting option. 
 
-![image](https://user-images.githubusercontent.com/116671665/205357952-bab4358b-9c6b-443e-9c20-3d84b035d0e7.png)
+![image](https://user-images.githubusercontent.com/116671665/205365310-9230c374-e3e2-4f88-9634-8437dfc65b0c.png)
 
 After the program is complete and the scatter plot has been displayed, the program creates a new Word document that explains the results of the program to the user. The program uses the TypeText function to type the body of the paragraph through VBA in excel. It also copies the lined scatter plot and pastes it onto the new word document for the user to see. Below is a screenshot of what the word document looks like. 
 
-![image](https://user-images.githubusercontent.com/116671665/205357997-8293e1d1-7f71-471d-be76-77e22566fc91.png)
+![image](https://user-images.githubusercontent.com/116671665/205365400-2fba90d4-8ef1-4656-8096-d6e2828cb2b2.png)
