@@ -114,16 +114,7 @@ Private Sub CommandButton1_Click()
     
     Call generate_ScatterPlot(oChartObj, oChart)
     Call generateWordDocument(oChartObj)
-        
-    
-        
-    
-    
-    
-    
-    
-    
-    
+
     Sheet1.UsedRange.EntireColumn.AutoFit
     Me.Hide
     cancel = False
